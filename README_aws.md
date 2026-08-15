@@ -255,7 +255,7 @@ Chỉ áp dụng nếu bạn đã làm Phụ lục GPU + LLM ở cuối bài. Ki
 1. **Screenshot terminal** chạy `python3 benchmark.py` với toàn bộ output kết quả.![1786724262546](image/README_aws/1786724262546.png)![1786724409424](image/README_aws/1786724409424.png)
 2. **File `benchmark_result.json`** chứa metrics đầy đủ (training time, AUC, inference latency, throughput...).
 3. **Screenshot tài nguyên**: `top`/`free -h` (hoặc EC2 Monitoring tab) thể hiện CPU/RAM/Network usage.![1786724088456](image/README_aws/1786724088456.png)![1786724113141](image/README_aws/1786724113141.png)![1786724900310](image/README_aws/1786724900310.png)
-4. **Screenshot AWS Billing/Cost Dashboard** thể hiện các dịch vụ đang phát sinh chi phí (EC2, NAT Gateway).
+4. **Screenshot AWS Billing/Cost Dashboard** thể hiện các dịch vụ đang phát sinh chi phí (EC2, NAT Gateway).![1786772568884](image/README_aws/1786772568884.png)![1786772625331](image/README_aws/1786772625331.png)
 5. **Mã nguồn:** Nén thư mục `terraform/` đã chạy thành công.
 6. **Báo cáo ngắn** (5-10 dòng): nhận xét về kết quả training time, AUC, inference speed trên CPU.
 
